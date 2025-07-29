@@ -1,0 +1,19 @@
+id,name,age, gender, score
+1, John, 25, Male,88
+2, Jane, 30, Female,90
+3,Jim, 22, Male, 120
+4,Jack, 28, Male,95
+5,Jill, 26, Female,88
+6, John, 25, Male,88
+7,Jim,22, Male, 120
+8, Jane,, Female,80
+9, Jacob, 25, Male, 130
+10, Jack, 28, Male,95
+11, Anna, 29, Female, 105
+12, Michael, 31, Male,80
+13,,30, Male, 100
+14,Olivia, 30, Female, 115
+15, John, 25, Male,95
+16, David, 33, Male, 100
+17, Emma, 28, Female,
+18, Lucas,, Male, 110
