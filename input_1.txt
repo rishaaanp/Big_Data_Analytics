@@ -1,0 +1,3 @@
+Hadoop is an open-source framework.
+Hadoop allows distributed processing of large data sets.
+Many companies use Hadoop for big data analytics.
