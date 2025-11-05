@@ -1,0 +1,11 @@
+1. Create table - 0: jdbc:hive2://localhost:10000/default> CREATE TABLE sales (id INT, product STRING, category STRING, price FLOAT, quantity INT);
+2. Load data - 0: jdbc:hive2://localhost:10000/default> LOAD DATA LOCAL INPATH '/home/hadoop/Desktop/sales.csv' INTO TABLE sales;
+3. Show table - 0: jdbc:hive2://localhost:10000/default> SELECT * FROM sales;
+4. Order data (ASC) - 0: jdbc:hive2://localhost:10000/default> SELECT * FROM sales ORDER BY price ASC;
+5. Order data (DESC) - 0: jdbc:hive2://localhost:10000/default> SELECT * FROM sales ORDER BY category ASC, price DESC;
+6. Count data - 0: jdbc:hive2://localhost:10000/default> SELECT COUNT(*) AS total_records FROM sales;
+7. Sum - 0: jdbc:hive2://localhost:10000/default> SELECT category, SUM(quantity) AS total_quantity FROM sales GROUP BY category;
+8. Average - 0: jdbc:hive2://localhost:10000/default> SELECT category, AVG(price) AS avg_price FROM sales GROUP BY category;
+9. Combined sum - 0: jdbc:hive2://localhost:10000/default> SELECT category, SUM(price * quantity) AS total_revenue FROM sales GROUP BY category;
+10. Min Max - 0: jdbc:hive2://localhost:10000/default> SELECT category, MAX(price) AS max_price, MIN(price) AS min_price FROM sales GROUP BY category;
+11. Combined - 0: jdbc:hive2://localhost:10000/default> SELECT category, SUM(price * quantity) AS total_revenue FROM sales GROUP BY category, ORDER BY total_revenue DESC;
