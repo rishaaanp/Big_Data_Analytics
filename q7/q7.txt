@@ -1,0 +1,6 @@
+1. Create a table - 0: jdbc:hive2://localhost:10000/default> CREATE TABLE Students (id INT, name STRING, age INT);
+2. To show table - 0: jdbc:hive2://localhost:10000/default> show tables;
+3. Alter table - 0: jdbc:hive2://localhost:10000/default> ALTER TABLE students RENAME TO college_students;
+4. Show altered table - 0: jdbc:hive2://localhost:10000/default> show tables;
+5. Drop table - 0: jdbc:hive2://localhost:10000/default> DROP TABLE college_students;
+6. Show dropped table - 0: jdbc:hive2://localhost:10000/default> show tables;

@@ -1,0 +1,21 @@
++-----------+
+| tab_name  |   		----------------- Created table Student
++-----------+
+| students  |
++-----------+
+1 row selected (0.043 seconds)
+
+
++-------------------+
+|     tab_name      |		----------------- Altered table name
++-------------------+
+| college_students  |
++-------------------+
+1 row selected (0.042 seconds)
+
+
++-----------+
+| tab_name  |			----------------- Dropped table
++-----------+
++-----------+
+No rows selected (0.047 seconds)
